@@ -6,7 +6,7 @@ from time import sleep
 
 def main():
     cookie_clicker_url = "https://orteil.dashnet.org/cookieclicker/"
-    chromedriver_path = "/Users/karlmarx/Documents/development/chromedriver"
+    chromedriver_path = "/Documents/development/chromedriver"
 
     driver = webdriver.Chrome(executable_path=chromedriver_path)
     driver.get(url=cookie_clicker_url)
